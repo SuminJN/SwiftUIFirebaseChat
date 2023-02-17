@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  SwiftUIFirebaseChat
-//
-//  Created by jangjeon on 2023/02/16.
-//
-
 import SwiftUI
 import Firebase
 
