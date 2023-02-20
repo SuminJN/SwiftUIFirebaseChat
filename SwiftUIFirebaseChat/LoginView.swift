@@ -20,7 +20,6 @@ class FirebaseManager: NSObject {
         
         super.init()
     }
-    
 }
 
 struct LoginView: View {

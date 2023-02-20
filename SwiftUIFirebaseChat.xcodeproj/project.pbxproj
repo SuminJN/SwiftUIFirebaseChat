@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7012DF5029A32FED00F878F2 /* MainMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7012DF4F29A32FED00F878F2 /* MainMessagesView.swift */; };
 		70173BFA299F4AFD00B30AEC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 70173BF9299F4AFD00B30AEC /* FirebaseAuth */; };
 		70173BFC299F4AFD00B30AEC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 70173BFB299F4AFD00B30AEC /* FirebaseFirestore */; };
 		70173BFE299F4AFE00B30AEC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 70173BFD299F4AFE00B30AEC /* FirebaseStorage */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7012DF4F29A32FED00F878F2 /* MainMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMessagesView.swift; sourceTree = "<group>"; };
 		70B16B53299DEAC90068F9A8 /* SwiftUIFirebaseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFirebaseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B16B56299DEAC90068F9A8 /* SwiftUIFirebaseChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFirebaseChatApp.swift; sourceTree = "<group>"; };
 		70B16B58299DEAC90068F9A8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7012DF4E29A32FBD00F878F2 /* MainMessages */ = {
+			isa = PBXGroup;
+			children = (
+				7012DF4F29A32FED00F878F2 /* MainMessagesView.swift */,
+			);
+			path = MainMessages;
+			sourceTree = "<group>";
+		};
 		70B16B4A299DEAC90068F9A8 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 		70B16B55299DEAC90068F9A8 /* SwiftUIFirebaseChat */ = {
 			isa = PBXGroup;
 			children = (
+				7012DF4E29A32FBD00F878F2 /* MainMessages */,
 				70B16B56299DEAC90068F9A8 /* SwiftUIFirebaseChatApp.swift */,
 				70B16B58299DEAC90068F9A8 /* LoginView.swift */,
 				70B16B69299E00A80068F9A8 /* GoogleService-Info.plist */,
@@ -159,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70F7C412299F43CE005559EC /* ImagePicker.swift in Sources */,
+				7012DF5029A32FED00F878F2 /* MainMessagesView.swift in Sources */,
 				70B16B59299DEAC90068F9A8 /* LoginView.swift in Sources */,
 				70B16B57299DEAC90068F9A8 /* SwiftUIFirebaseChatApp.swift in Sources */,
 			);
