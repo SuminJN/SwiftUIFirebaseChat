@@ -1,13 +1,9 @@
-//
-//  ChatUser.swift
-//  SwiftUIFirebaseChat
-//
-//  Created by 전수민 on 2023/02/20.
-//
-
 import Foundation
 
-struct ChatUser {
+struct ChatUser: Identifiable {
+    
+    var id: String { uid }
+    
     let uid, email, profileImageUrl: String
     
     init(data: [String: Any]) {
